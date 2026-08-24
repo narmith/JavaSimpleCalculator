@@ -11,4 +11,42 @@ Also made up with AI-assisted development (ChatGPT for tuning up concepts, refac
 <img width="409" height="293" alt="imagen" src="https://github.com/user-attachments/assets/8874427e-f1ed-4e38-aafe-49fa1a353afa" />
 
 
+Structure.
+
+src/
+├── App.java
+├── model/
+│   └── Calculator.java
+├── controller/
+│   └── CalcController.java
+└── ui/
+    ├── MainWindow.java
+    ├── PanelVisor.java
+    ├── PanelNumberBtns.java
+    ├── PanelOperationBtns.java
+    └── PanelEnable.java
+
+
+Behaviour.
+
+UI
+ │
+ │ user presses buttons
+ ▼
+Controller
+ │
+ │ interprets operation/states
+ ▼
+Model
+ │
+ │ performs calculations
+ ▼
+Controller
+ │
+ │ tells the UI (visor) what to display
+ ▼
+UI
+
+
+
 Best regards!
